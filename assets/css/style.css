@@ -1,0 +1,35 @@
+/*
+In dieser Übung sollst du eine Bildergalerie erstellen.
+Für zufällige Bilder der gleichen Größe kannst du z.B. diese Website verwenden: https://picsum.photos/200/200. Die Zahlen am Ende definieren die Größe der Bilder. Die kannst du auch anpassen, aber wähle am besten einheitlich Bilder mit der gleichen Höhe, damit es da keine Probleme gibt.
+
+Wenn du möchtest, kannst du über die Bilder auch noch einen hover-Effekt legen.*/
+
+/*===================================================
+IMPOTS
+===================================================*/
+/*===================================================
+Globale einstellungen
+===================================================*/
+* {
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+    font-family: sans-serif;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+/*===================================================
+main
+===================================================*/
+
+.bildergallerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
